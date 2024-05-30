@@ -1,2 +1,0 @@
-gcc -o filename.c -lrt
-./filename
