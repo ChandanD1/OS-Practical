@@ -1,0 +1,38 @@
+# List the contents of the current directory
+ls
+
+# List the contents with detailed information
+ls -l
+
+
+
+# Create a new directory named 'testdir'
+mkdir testdir
+
+# Verify the directory has been created
+ls -l
+
+
+
+# Change to the newly created directory
+cd testdir
+
+# Verify the current directory has changed
+pwd
+
+
+
+# Change back to the parent directory
+cd ..
+
+# Remove the directory 'testdir'
+rmdir testdir
+
+# Verify the directory has been removed
+ls -l
+
+
+
+# Print the current working directory
+pwd
+

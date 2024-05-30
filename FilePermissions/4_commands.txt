@@ -1,0 +1,30 @@
+# Create a file and add some content
+echo "Hello, World!" > file.txt
+echo "This is a sample file." >> file.txt
+echo "It contains multiple lines." >> file.txt
+
+# Display the content of the file
+cat file.txt
+
+
+# Display the first 2 lines of the file
+head -n 2 file.txt
+
+
+# Display the last 2 lines of the file
+tail -n 2 file.txt
+
+
+# Copy file.txt to a new file named copy.txt
+cp file.txt copy.txt
+
+# Display the content of the new file to verify the copy
+cat copy.txt
+
+
+# Remove the copied file
+rm copy.txt
+
+# Verify the file has been removed
+ls copy.txt
+

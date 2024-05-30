@@ -1,0 +1,2 @@
+sed -i 's/foo/bar/g' file.txt
+
