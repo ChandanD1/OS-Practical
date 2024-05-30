@@ -1,0 +1,6 @@
+Line 1
+Error: Something went wrong
+Line 2
+Error 404
+Line 3
+
